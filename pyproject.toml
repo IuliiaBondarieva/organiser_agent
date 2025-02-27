@@ -1,0 +1,20 @@
+[project]
+name = "organiser-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckduckgo-search>=7.4.3",
+    "faker>=36.1.1",
+    "ipython>=8.32.0",
+    "jupyter>=1.1.1",
+    "langchain-community>=0.3.17",
+    "langchain-openai>=0.3.6",
+    "langgraph>=0.2.73",
+    "langgraph-checkpoint>=2.0.15",
+    "openai>=1.63.1",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "tavily-python>=0.5.1",
+]
